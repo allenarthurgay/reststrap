@@ -6,7 +6,7 @@
     "main": "lib/server.js",
     "repository":{
         "type":"git",
-        "url":"https://github.com/allenarthurgay/rest-strap.git"
+        "url":"https://github.com/allenarthurgay/reststrap.git"
     },
     "analyze":false,
     "dependencies":{
