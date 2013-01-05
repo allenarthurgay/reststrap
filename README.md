@@ -1,4 +1,4 @@
-reststrap
-=========
+rest-strap
+======
 
-nodejs bootstrapper for creating rest apis
+Simple bootstrapper for building rest services
