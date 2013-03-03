@@ -27,5 +27,8 @@
     },
     "directories":{
         "lib":"./lib"
+    },
+    "scripts":{
+        "test": "mocha --recursive -R spec"
     }
 }
