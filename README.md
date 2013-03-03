@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/allenarthurgay/reststrap.png)](https://travis-ci.org/allenarthurgay/reststrap)
+[![Build Status](https://travis-ci.org/allenarthurgay/reststrap.png?branch=master)](https://travis-ci.org/allenarthurgay/reststrap)
 
 
 rest-strap
