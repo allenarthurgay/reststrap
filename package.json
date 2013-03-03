@@ -2,7 +2,7 @@
     "author": "Allen Gay <allenarthurgay@gmail.com>",
     "name": "reststrap",
     "description":"Bootstrapper for registering REST Api endpoints using restify",
-    "version": "0.0.07",
+    "version": "0.0.08",
     "main": "lib/server.js",
     "repository":{
         "type":"git",
@@ -16,7 +16,11 @@
         "winston":"0.6.x"
     },
     "devDependencies": {
-        "grunt": "~0.3.x"
+        "grunt": "~0.3.x",
+        "grunt-mocha-test": "0.0.x",
+        "mocha":"*",
+        "chai":"*",
+        "sinon":"*"
     },
     "engines":{
         "node": ">=0.8"
