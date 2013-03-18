@@ -2,7 +2,7 @@
     "author": "Allen Gay <allenarthurgay@gmail.com>",
     "name": "reststrap",
     "description":"Bootstrapper for registering REST Api endpoints using restify",
-    "version": "0.0.08",
+    "version": "0.0.09",
     "main": "lib/server.js",
     "repository":{
         "type":"git",
