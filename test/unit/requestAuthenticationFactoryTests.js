@@ -3,7 +3,7 @@
 var expect = require('chai').expect,
     httpStatusCodes = require('../../lib/httpStatusCodes'),
     httpResponseSender = require('../../lib/httpResponseSender'),
-    requestAuthentication = require('../../lib/requestAuthentication'),
+    requestAuthenticationFactory = require('../../lib/requestAuthenticationFactory'),
     sinon = require('sinon');
 
 describe('requestAuthentication', function() {
@@ -13,7 +13,7 @@ describe('requestAuthentication', function() {
         this.responseSendStub = sinon.stub(httpResponseSender, 'send');
         this.res = sinon.spy();
         this.next = sinon.spy();
-        this.authenticator = requestAuthentication(this.authDelegate);
+        this.authenticator = requestAuthenticationFactory.create(this.authDelegate);
         done();
     });
 
